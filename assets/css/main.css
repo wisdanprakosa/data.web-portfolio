@@ -3219,3 +3219,11 @@ input, select, textarea {
 			}
 
 	}
+/* ===== Custom Portfolio Thumbnail ===== */
+.work-item img {
+  width: 100%;          /* gambar isi penuh kolom */
+  height: 250px;        /* tinggi seragam (bisa 220px–300px sesuai selera) */
+  object-fit: cover;    /* crop otomatis biar proporsi bagus */
+  border-radius: 8px;   /* sudut halus (opsional, bisa dihapus) */
+  display: block;
+}
